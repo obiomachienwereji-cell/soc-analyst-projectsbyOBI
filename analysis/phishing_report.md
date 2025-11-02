@@ -74,3 +74,16 @@ On May 13, 2024, a phishing email was detected by the Deceptive Mail Detector on
 - Redacted logs of headers and email metadata (`analysis/logs/headers_redacted.txt`)  
 
 > **Note:** No raw attachments or sensitive internal details are included in this repo.
+>
+> ## 5. Containment & Mitigation Actions
+1. Attachment was **not opened**.  
+2. Sender email blocked at the mail gateway.  
+3. Email quarantined for all recipients.  
+4. Users notified of the phishing attempt.  
+5. Logs monitored for similar patterns.  
+
+## 6. Recommendations
+- Train users to recognize suspicious offers and attachments.  
+- Maintain and update email filtering rules.  
+- Monitor alerts and refine detection rules based on new incidents.  
+
